@@ -1,9 +1,9 @@
 ﻿# jpa-spring Boot build.gradle
 '''
 plugins {
-    id 'java'
-    id 'org.springframework.boot' version '3.2.4'
-    id 'io.spring.dependency-management' version '1.1.4'
+    id 'java'<br>
+    id 'org.springframework.boot' version '3.2.4'<br>
+    id 'io.spring.dependency-management' version '1.1.4'<br>
 }
 
 group = 'hello'
@@ -14,8 +14,8 @@ java {
 }
 
 configurations {
-    compileOnly {
-        extendsFrom annotationProcessor
+    compileOnly {<br>
+        extendsFrom annotationProcessor<br>
     }
 }
 
@@ -24,18 +24,18 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
-    implementation 'org.springframework.boot:spring-boot-starter-web'
-    compileOnly 'org.projectlombok:lombok'
-    developmentOnly 'org.springframework.boot:spring-boot-devtools'
-    runtimeOnly 'com.mysql:mysql-connector-j'
-    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
-    annotationProcessor 'org.projectlombok:lombok'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa' <br>
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'<br>
+    implementation 'org.springframework.boot:spring-boot-starter-web'<br>
+    compileOnly 'org.projectlombok:lombok'<br>
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'<br>
+    runtimeOnly 'com.mysql:mysql-connector-j'<br>
+    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'<br>
+    annotationProcessor 'org.projectlombok:lombok'<br>
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'<br>
 }
 
-tasks.named('test') {
+tasks.named('test') { ****
     useJUnitPlatform()
 }
 
