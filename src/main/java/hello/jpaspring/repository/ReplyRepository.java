@@ -1,7 +1,7 @@
-package com.example.springedu.repository;
+package hello.jpaspring.repository;
 
-import com.example.springedu.entity.Meeting;
-import com.example.springedu.entity.Reply;
+import hello.jpaspring.entity.Meeting;
+import hello.jpaspring.entity.Reply;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

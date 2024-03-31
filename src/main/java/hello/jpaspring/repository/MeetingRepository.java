@@ -1,6 +1,6 @@
-package com.example.springedu.repository;
+package hello.jpaspring.repository;
 
-import com.example.springedu.entity.Meeting;
+import hello.jpaspring.entity.Meeting;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

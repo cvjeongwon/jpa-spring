@@ -1,6 +1,6 @@
-package com.example.springedu.controller;
+package hello.jpaspring.controller;
 
-import com.example.springedu.domain.WeatherDTO;
+import hello.jpaspring.domain.WeatherDTO;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,7 +21,7 @@ public class WeatherController {
 			DocumentBuilder documentBuilder = documentBuilderFactory
 					.newDocumentBuilder();
 			Document document = documentBuilder
-					.parse("http://www.kma.go.kr/wid/queryDFSRSS.jsp?zone=4161060000");
+					.parse("http://www.kma.go.kr/wid/queryDFSRSS.jsp?zone=4161060000"); // 경기도 광주시 현재날씨 이미지는 images폴더
 			String wname = document.getElementsByTagName("wfKor").item(0).getTextContent();			
 			String time = document.getElementsByTagName("wfKor").item(0).getTextContent();
 			vo.setTime(time);

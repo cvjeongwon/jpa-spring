@@ -1,4 +1,4 @@
-package com.example.springedu.domain;
+package hello.jpaspring.domain;
 
 public class PageDTO {
 	private int startNum;

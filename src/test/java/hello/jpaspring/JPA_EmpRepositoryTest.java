@@ -1,7 +1,7 @@
 package hello.jpaspring;
 
-import com.example.springedu.entity.Emp;
-import com.example.springedu.repository.EmpRepository;
+import hello.jpaspring.entity.Emp;
+import hello.jpaspring.repository.EmpRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
@@ -14,7 +14,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 
 import java.util.List;
-// @DataJpaTest를 사용하면 자동으로 EmbededDatabase-H2를 사용하게 된다.
+// @DataJpaTest를 사용하면 자동으로 EmbededDatabase-H2(default)를 사용하게 된다.
 // MySQL과 같이 외부의 DB 를 연결하려는 경우엔 이 어노테이션을 설정한다.
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)

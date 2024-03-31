@@ -1,7 +1,7 @@
 package hello.jpaspring;
 
-import com.example.springedu.entity.Emp;
-import com.example.springedu.repository.EmpRepository2;
+import hello.jpaspring.entity.Emp;
+import hello.jpaspring.repository.EmpRepository2;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.MethodOrderer.OrderAnnotation;
 import org.junit.jupiter.api.Order;

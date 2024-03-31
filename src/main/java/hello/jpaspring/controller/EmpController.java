@@ -1,7 +1,7 @@
-package com.example.springedu.controller;
+package hello.jpaspring.controller;
 
-import com.example.springedu.entity.Emp;
-import com.example.springedu.repository.EmpRepository;
+import hello.jpaspring.entity.Emp;
+import hello.jpaspring.repository.EmpRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

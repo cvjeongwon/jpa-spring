@@ -1,6 +1,6 @@
-package com.example.springedu.repository;
+package hello.jpaspring.repository;
 
-import com.example.springedu.entity.Member;
+import hello.jpaspring.entity.Member;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -8,7 +8,7 @@ import org.springframework.data.repository.query.Param;
 import java.util.List;
 
 
-public interface MemberTeamLockerRepository extends JpaRepository<Member, Integer>{
+public interface MemberTeamLockerRepository extends JpaRepository<hello.jpaspring.entity.Member, Integer>{
 
 	@Query("select m from Member m join m.team t where t.name = :tn")
 

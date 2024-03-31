@@ -1,7 +1,7 @@
 package hello.jpaspring;
 
-import com.example.springedu.entity.Reply;
-import com.example.springedu.repository.ReplyRepository;
+import hello.jpaspring.entity.Reply;
+import hello.jpaspring.repository.ReplyRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;

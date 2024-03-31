@@ -1,4 +1,4 @@
-package com.example.springedu.repository;
+package hello.jpaspring.repository;
 
 public interface TeamName {
     String getTeamName();

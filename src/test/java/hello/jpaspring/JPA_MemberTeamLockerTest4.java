@@ -1,7 +1,7 @@
 package hello.jpaspring;
 
-import com.example.springedu.entity.Member;
-import com.example.springedu.repository.MemberTeamLockerRepository;
+import hello.jpaspring.entity.Member;
+import hello.jpaspring.repository.MemberTeamLockerRepository;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

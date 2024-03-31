@@ -1,9 +1,9 @@
-package com.example.springedu.controller;
+package hello.jpaspring.controller;
 
-import com.example.springedu.entity.Meeting;
-import com.example.springedu.entity.Reply;
-import com.example.springedu.repository.MeetingRepository;
-import com.example.springedu.repository.ReplyRepository;
+import hello.jpaspring.entity.Meeting;
+import hello.jpaspring.entity.Reply;
+import hello.jpaspring.repository.MeetingRepository;
+import hello.jpaspring.repository.ReplyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;

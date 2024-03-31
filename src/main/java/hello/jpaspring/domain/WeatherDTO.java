@@ -1,4 +1,4 @@
-package com.example.springedu.domain;
+package hello.jpaspring.domain;
 
 import lombok.Getter;
 import lombok.Setter;

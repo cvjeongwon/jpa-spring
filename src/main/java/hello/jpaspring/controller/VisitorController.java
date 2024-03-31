@@ -1,7 +1,7 @@
-package com.example.springedu.controller;
+package hello.jpaspring.controller;
 
-import com.example.springedu.entity.Visitor;
-import com.example.springedu.repository.VisitorRepository;
+import hello.jpaspring.entity.Visitor;
+import hello.jpaspring.repository.VisitorRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ui.Model;
