@@ -15,4 +15,3 @@ public interface ReplyRepository extends JpaRepository<Reply, Integer>{
 }
 
 
-//public List<Reply> findByRefidId(int id);
